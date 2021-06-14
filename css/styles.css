@@ -1,0 +1,53 @@
+body
+{ width: 100%; height: 100vh;
+
+    text-align: center;  background-image: linear-gradient(
+    to right,
+    #001d3d,
+    #001d3d 15%,
+    #001d3d 85%
+    );
+}
+h1
+{ padding: 0 20% 3% 5%;
+
+    color: white;
+}
+p
+{ padding: 0 20% 3% 5%;
+
+    color: grey;
+}
+
+#features
+{ margin-left: -6rem;
+    padding: 7% 15%;
+}
+
+.container
+{ margin: 5rem 3rem 5rem 3rem;  border-radius: 25px;
+    background-color: #3d0e61 ;
+}
+
+.picture
+{ margin: auto;
+    padding: 0 4px;  filter: saturate(var(--value, 5));
+}
+
+@media (min-width: 576px) and (max-width: 1200px)
+{
+    .picture
+    {
+        flex: 50%;  max-width: 50%;
+    }
+}
+
+.insights
+{
+    color: #613dc1;
+}
+
+.row
+{
+    padding-top: 5rem;
+}
