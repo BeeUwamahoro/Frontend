@@ -8,7 +8,12 @@ body
     #001d3d 85%
     );
 }
-h2,h1
+h1
+{ padding: 0 20% 3% 5%;
+
+    color: white;
+}
+h2
 { padding: 0 20% 3% 5%;
 
     color: white;
